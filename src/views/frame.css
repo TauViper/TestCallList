@@ -1,0 +1,5918 @@
+.frame-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.frame-frame {
+  width: 100%;
+  height: 2730px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(241, 244, 249, 1);
+}
+.frame-content {
+  top: 64px;
+  left: 360px;
+  width: 1440px;
+  height: 2120px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-datepicker {
+  /* position: absolute; */
+  top: 28px;
+  left: 1325px;
+  width: 115px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.frame-frame666 {
+  gap: 12px;
+  top: 0px;
+  left: 0px;
+  width: 115px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.frame-keyboardarrowleft {
+  width: 16px;
+  height: 24px;
+}
+.frame-frame664 {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-iconcalendar {
+  width: 16px;
+  height: 18px;
+}
+.frame-text {
+  color: rgba(0, 95, 248, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-keyboardarrowright {
+  width: 17px;
+  height: 24px;
+}
+.frame-calls {
+  top: 135px;
+  left: 0px;
+  width: 1440px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 4px 5px 0px rgba(233, 237, 243, 1);
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.frame-table {
+  gap: 20px;
+  top: 24px;
+  left: 0px;
+  width: 1440px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.frame-frame1529 {
+  gap: 6px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.frame-tableheader {
+  width: 1440px;
+  height: 16px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-text002 {
+  top: 2px;
+  left: 40px;
+  color: var(--dl-color-default-textheader);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text004 {
+  top: 2px;
+  left: 93px;
+  color: var(--dl-color-default-textheader);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text006 {
+  top: 2px;
+  left: 636px;
+  color: var(--dl-color-default-textheader);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text008 {
+  top: 2px;
+  left: 850px;
+  color: var(--dl-color-default-textheader);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text010 {
+  top: 2px;
+  left: 1311px;
+  color: var(--dl-color-default-textheader);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text012 {
+  top: 2px;
+  left: 310px;
+  color: var(--dl-color-default-textheader);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text014 {
+  top: 2px;
+  left: 182px;
+  color: var(--dl-color-default-textheader);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-table1 {
+  width: 1440px;
+  height: 1868px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame-rows {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.frame-row {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border01 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text016 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text018 {
+  top: 22px;
+  left: 636px;
+  color: rgba(94, 119, 147, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text020 {
+  top: 22px;
+  left: 96px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-grade {
+  gap: 8px;
+  top: 20px;
+  left: 850px;
+  width: 106px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-component26 {
+  width: 28px;
+  height: 8px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-ellipse31 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse32 {
+  top: 0px;
+  left: 10px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse30 {
+  top: 0px;
+  left: 20px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-frame01 {
+  gap: 10px;
+  display: flex;
+  padding: 6px 8px;
+  align-items: flex-start;
+  border-color: rgba(40, 168, 121, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-ui-lightgreen);
+}
+.frame-text022 {
+  color: var(--dl-color-text-green);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text024 {
+  top: 22px;
+  left: 1362px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-row01 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border02 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border03 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall01 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name01 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text026 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text028 {
+  top: 22px;
+  left: 96px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-grade01 {
+  gap: 8px;
+  top: 20px;
+  left: 850px;
+  width: 70px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-frame02 {
+  gap: 10px;
+  display: flex;
+  padding: 6px 8px;
+  align-items: flex-start;
+  border-color: rgba(40, 168, 121, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-ui-lightgreen);
+}
+.frame-text030 {
+  color: var(--dl-color-text-green);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text032 {
+  top: 22px;
+  left: 1362px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar01 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar01 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-buttonsecondarysmalltextdefault {
+  gap: 14px;
+  top: 13px;
+  left: 850px;
+  width: 122px;
+  display: flex;
+  padding: 9px 24px 11px;
+  position: absolute;
+  align-items: center;
+  border-color: rgba(0, 44, 251, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.frame-text034 {
+  color: rgba(0, 95, 248, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-row02 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border04 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border05 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall02 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name02 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text036 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text038 {
+  top: 22px;
+  left: 98px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-grade02 {
+  gap: 8px;
+  top: 20px;
+  left: 850px;
+  width: 70px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-frame03 {
+  gap: 10px;
+  display: flex;
+  padding: 6px 8px;
+  align-items: flex-start;
+  border-color: rgba(40, 168, 121, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-ui-lightgreen);
+}
+.frame-text040 {
+  color: var(--dl-color-text-green);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text042 {
+  top: 22px;
+  left: 1362px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar02 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar02 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-buttonsecondarysmalltextdefault1 {
+  gap: 14px;
+  top: 13px;
+  left: 850px;
+  width: 122px;
+  display: flex;
+  padding: 9px 24px 11px;
+  position: absolute;
+  align-items: center;
+  border-color: rgba(0, 44, 251, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.frame-text044 {
+  color: rgba(0, 95, 248, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-web {
+  top: 23px;
+  left: 258px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.frame-row03 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border06 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border07 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall03 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name03 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text046 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text048 {
+  top: 22px;
+  left: 99px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar03 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar03 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-text050 {
+  top: 22px;
+  left: 852px;
+  color: var(--dl-color-ui-red);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-row04 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border08 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border09 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall04 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name04 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text052 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text054 {
+  top: 22px;
+  left: 97px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar04 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar04 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-web1 {
+  top: 23px;
+  left: 258px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.frame-row05 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border10 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border11 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall05 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name05 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text056 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text058 {
+  top: 22px;
+  left: 636px;
+  color: rgba(94, 119, 147, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text060 {
+  top: 22px;
+  left: 97px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-grade03 {
+  gap: 8px;
+  top: 20px;
+  left: 850px;
+  width: 102px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-component2601 {
+  width: 28px;
+  height: 8px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-ellipse3101 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse3201 {
+  top: 0px;
+  left: 10px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-frame04 {
+  gap: 10px;
+  display: flex;
+  padding: 6px 8px;
+  align-items: flex-start;
+  border-color: rgba(173, 191, 223, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-ui-secondary);
+}
+.frame-text062 {
+  color: var(--dl-color-default-text);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text064 {
+  top: 22px;
+  left: 1362px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar05 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar3 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-row06 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border12 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border13 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall06 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name06 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text066 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text068 {
+  top: 22px;
+  left: 636px;
+  color: rgba(94, 119, 147, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text070 {
+  top: 22px;
+  left: 97px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-grade04 {
+  gap: 8px;
+  top: 20px;
+  left: 850px;
+  width: 92px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-component2602 {
+  width: 28px;
+  height: 8px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-ellipse3102 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-frame05 {
+  gap: 10px;
+  display: flex;
+  padding: 6px 8px;
+  align-items: flex-start;
+  border-color: rgba(234, 26, 79, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-ui-lightred);
+}
+.frame-text072 {
+  color: var(--dl-color-ui-red);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text074 {
+  top: 22px;
+  left: 1362px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar06 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar05 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-web2 {
+  top: 23px;
+  left: 258px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.frame-row07 {
+  gap: 4px;
+  width: 1400px;
+  height: 73px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border14 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border15 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-group646 {
+  top: 7px;
+  left: 40px;
+  width: 1360px;
+  height: 56px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame-tablecomponenticoncall07 {
+  top: 17px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name07 {
+  gap: 6px;
+  top: 0px;
+  left: 270px;
+  height: 56px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text076 {
+  color: var(--dl-color-default-text);
+  width: 254px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text078 {
+  color: var(--dl-color-default-textsecondary);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text080 {
+  top: 19px;
+  left: 596px;
+  color: var(--dl-color-default-textsecondary);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text082 {
+  top: 19px;
+  left: 56px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text084 {
+  top: 19px;
+  left: 1322px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar07 {
+  gap: 10px;
+  top: 14px;
+  left: 142px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar2 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-row08 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border16 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border17 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall08 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name08 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text086 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text088 {
+  top: 22px;
+  left: 636px;
+  color: rgba(94, 119, 147, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text090 {
+  top: 22px;
+  left: 100px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-grade05 {
+  gap: 8px;
+  top: 20px;
+  left: 850px;
+  width: 92px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-component2603 {
+  width: 28px;
+  height: 8px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-ellipse3103 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-frame06 {
+  gap: 10px;
+  display: flex;
+  padding: 6px 8px;
+  align-items: flex-start;
+  border-color: rgba(234, 26, 79, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-ui-lightred);
+}
+.frame-text092 {
+  color: var(--dl-color-ui-red);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text094 {
+  top: 22px;
+  left: 1369px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar08 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar06 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-row09 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border18 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border19 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall09 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name09 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text096 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text098 {
+  top: 22px;
+  left: 636px;
+  color: rgba(94, 119, 147, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text100 {
+  top: 22px;
+  left: 97px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-grade06 {
+  gap: 8px;
+  top: 20px;
+  left: 850px;
+  width: 92px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-component2604 {
+  width: 28px;
+  height: 8px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-ellipse3104 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-frame07 {
+  gap: 10px;
+  display: flex;
+  padding: 6px 8px;
+  align-items: flex-start;
+  border-color: rgba(234, 26, 79, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-ui-lightred);
+}
+.frame-text102 {
+  color: var(--dl-color-ui-red);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text104 {
+  top: 22px;
+  left: 1362px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar09 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar07 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-row10 {
+  gap: 4px;
+  width: 1400px;
+  height: 73px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border20 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border21 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-group6461 {
+  top: 7px;
+  left: 40px;
+  width: 714px;
+  height: 56px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame-tablecomponenticoncall10 {
+  top: 18px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name10 {
+  gap: 6px;
+  top: 0px;
+  left: 270px;
+  height: 56px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text106 {
+  color: var(--dl-color-default-text);
+  width: 254px;
+  height: auto;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text108 {
+  color: var(--dl-color-default-textsecondary);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text110 {
+  top: 19px;
+  left: 596px;
+  color: var(--dl-color-default-textsecondary);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text112 {
+  top: 19px;
+  left: 56px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar10 {
+  gap: 10px;
+  top: 14px;
+  left: 142px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar21 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-row11 {
+  gap: 4px;
+  width: 1400px;
+  height: 84px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border22 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border23 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-group6462 {
+  top: 7px;
+  left: 40px;
+  width: 1360px;
+  height: 65px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame-tablecomponenticoncall11 {
+  top: 18px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name11 {
+  gap: 6px;
+  top: 0px;
+  left: 270px;
+  height: 56px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text114 {
+  color: var(--dl-color-default-text);
+  width: 254px;
+  height: auto;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text116 {
+  top: 5px;
+  left: 596px;
+  color: var(--dl-color-default-textsecondary);
+  width: 197px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 132.00000524520874%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text118 {
+  top: 19px;
+  left: 56px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text120 {
+  top: 19px;
+  left: 1322px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar11 {
+  gap: 10px;
+  top: 14px;
+  left: 142px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar22 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-row12 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border24 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border25 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall12 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name12 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text122 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text124 {
+  top: 22px;
+  left: 636px;
+  color: rgba(94, 119, 147, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text126 {
+  top: 22px;
+  left: 100px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-grade07 {
+  gap: 8px;
+  top: 20px;
+  left: 850px;
+  width: 106px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-component2605 {
+  width: 28px;
+  height: 8px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-ellipse3105 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse3202 {
+  top: 0px;
+  left: 10px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse3001 {
+  top: 0px;
+  left: 20px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-frame08 {
+  gap: 10px;
+  display: flex;
+  padding: 6px 8px;
+  align-items: flex-start;
+  border-color: rgba(40, 168, 121, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-ui-lightgreen);
+}
+.frame-text128 {
+  color: var(--dl-color-text-green);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text130 {
+  top: 22px;
+  left: 1368px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar12 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar08 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-row13 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border26 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border27 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall13 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name13 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text132 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text134 {
+  top: 22px;
+  left: 636px;
+  color: rgba(94, 119, 147, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text136 {
+  top: 22px;
+  left: 100px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-grade08 {
+  gap: 8px;
+  top: 20px;
+  left: 850px;
+  width: 102px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-component2606 {
+  width: 28px;
+  height: 8px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-ellipse3106 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse3203 {
+  top: 0px;
+  left: 10px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-frame09 {
+  gap: 10px;
+  display: flex;
+  padding: 6px 8px;
+  align-items: flex-start;
+  border-color: rgba(173, 191, 223, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-ui-secondary);
+}
+.frame-text138 {
+  color: var(--dl-color-default-text);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text140 {
+  top: 22px;
+  left: 1362px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar13 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar09 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-row14 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border28 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border29 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall14 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name14 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text142 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text144 {
+  top: 22px;
+  left: 636px;
+  color: rgba(94, 119, 147, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text146 {
+  top: 22px;
+  left: 102px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-grade09 {
+  gap: 8px;
+  top: 20px;
+  left: 850px;
+  width: 106px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-component2607 {
+  width: 28px;
+  height: 8px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-ellipse3107 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse3204 {
+  top: 0px;
+  left: 10px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse3002 {
+  top: 0px;
+  left: 20px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-frame10 {
+  gap: 10px;
+  display: flex;
+  padding: 6px 8px;
+  align-items: flex-start;
+  border-color: rgba(40, 168, 121, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-ui-lightgreen);
+}
+.frame-text148 {
+  color: var(--dl-color-text-green);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text150 {
+  top: 22px;
+  left: 1362px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar14 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar10 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-row15 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border30 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border31 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall15 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name15 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text152 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text154 {
+  top: 22px;
+  left: 636px;
+  color: rgba(94, 119, 147, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text156 {
+  top: 22px;
+  left: 96px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-grade10 {
+  gap: 8px;
+  top: 20px;
+  left: 850px;
+  width: 92px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-component2608 {
+  width: 28px;
+  height: 8px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-ellipse3108 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-frame11 {
+  gap: 10px;
+  display: flex;
+  padding: 6px 8px;
+  align-items: flex-start;
+  border-color: rgba(234, 26, 79, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-ui-lightred);
+}
+.frame-text158 {
+  color: var(--dl-color-ui-red);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text160 {
+  top: 22px;
+  left: 1369px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar15 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar11 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-data {
+  top: 1115px;
+  left: 40px;
+  width: 58px;
+  height: 22px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame-text162 {
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 145.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text164 {
+  top: 1px;
+  left: 44px;
+  color: var(--dl-color-default-textheader);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-rows1 {
+  top: 1153px;
+  left: 0px;
+  width: 1440px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.frame-row16 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border32 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border33 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall16 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name16 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text166 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text168 {
+  top: 22px;
+  left: 636px;
+  color: rgba(94, 119, 147, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text170 {
+  top: 22px;
+  left: 96px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-grade11 {
+  gap: 8px;
+  top: 20px;
+  left: 850px;
+  width: 106px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-component2609 {
+  width: 28px;
+  height: 8px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-ellipse3109 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse3205 {
+  top: 0px;
+  left: 10px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse3003 {
+  top: 0px;
+  left: 20px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-frame12 {
+  gap: 10px;
+  display: flex;
+  padding: 6px 8px;
+  align-items: flex-start;
+  border-color: rgba(40, 168, 121, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-ui-lightgreen);
+}
+.frame-text172 {
+  color: var(--dl-color-text-green);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text174 {
+  top: 22px;
+  left: 1368px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar16 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar12 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-row17 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border34 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border35 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall17 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name17 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text176 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text178 {
+  top: 22px;
+  left: 96px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar17 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar13 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-row18 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border36 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border37 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall18 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name18 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text180 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text182 {
+  top: 22px;
+  left: 96px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text184 {
+  top: 22px;
+  left: 1362px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar18 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar14 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-web3 {
+  top: 23px;
+  left: 258px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.frame-row19 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border38 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border39 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall19 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name19 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text186 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text188 {
+  top: 22px;
+  left: 96px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text190 {
+  top: 22px;
+  left: 1362px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar19 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar15 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-row20 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border40 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border41 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall20 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name20 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text192 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text194 {
+  top: 22px;
+  left: 636px;
+  color: rgba(94, 119, 147, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text196 {
+  top: 22px;
+  left: 97px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-grade12 {
+  gap: 8px;
+  top: 20px;
+  left: 850px;
+  width: 106px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-component2610 {
+  width: 28px;
+  height: 8px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-ellipse3110 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse3206 {
+  top: 0px;
+  left: 10px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse3004 {
+  top: 0px;
+  left: 20px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-frame13 {
+  gap: 10px;
+  display: flex;
+  padding: 6px 8px;
+  align-items: flex-start;
+  border-color: rgba(40, 168, 121, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-ui-lightgreen);
+}
+.frame-text198 {
+  color: var(--dl-color-text-green);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text200 {
+  top: 22px;
+  left: 1362px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar20 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar31 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-row21 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border42 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border43 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall21 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name21 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text202 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text204 {
+  top: 22px;
+  left: 97px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text206 {
+  top: 22px;
+  left: 1362px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar21 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar16 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-row22 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border44 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border45 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall22 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name22 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text208 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text210 {
+  top: 22px;
+  left: 636px;
+  color: rgba(94, 119, 147, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text212 {
+  top: 22px;
+  left: 97px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-grade13 {
+  gap: 8px;
+  top: 20px;
+  left: 850px;
+  width: 106px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-component2611 {
+  width: 28px;
+  height: 8px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-ellipse3111 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse3207 {
+  top: 0px;
+  left: 10px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse3005 {
+  top: 0px;
+  left: 20px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-frame14 {
+  gap: 10px;
+  display: flex;
+  padding: 6px 8px;
+  align-items: flex-start;
+  border-color: rgba(40, 168, 121, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-ui-lightgreen);
+}
+.frame-text214 {
+  color: var(--dl-color-text-green);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text216 {
+  top: 22px;
+  left: 1362px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar22 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar17 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-row23 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border46 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border47 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall23 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name23 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text218 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text220 {
+  top: 22px;
+  left: 636px;
+  color: rgba(94, 119, 147, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text222 {
+  top: 22px;
+  left: 97px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-grade14 {
+  gap: 8px;
+  top: 20px;
+  left: 850px;
+  width: 106px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-component2612 {
+  width: 28px;
+  height: 8px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-ellipse3112 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse3208 {
+  top: 0px;
+  left: 10px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse3006 {
+  top: 0px;
+  left: 20px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-frame15 {
+  gap: 10px;
+  display: flex;
+  padding: 6px 8px;
+  align-items: flex-start;
+  border-color: rgba(40, 168, 121, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-ui-lightgreen);
+}
+.frame-text224 {
+  color: var(--dl-color-text-green);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text226 {
+  top: 22px;
+  left: 1362px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar23 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar18 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-row24 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border48 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border49 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall24 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name24 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text228 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text230 {
+  top: 22px;
+  left: 636px;
+  color: rgba(94, 119, 147, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text232 {
+  top: 22px;
+  left: 100px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-grade15 {
+  gap: 8px;
+  top: 20px;
+  left: 850px;
+  width: 106px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-component2613 {
+  width: 28px;
+  height: 8px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-ellipse3113 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse3209 {
+  top: 0px;
+  left: 10px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse3007 {
+  top: 0px;
+  left: 20px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-frame16 {
+  gap: 10px;
+  display: flex;
+  padding: 6px 8px;
+  align-items: flex-start;
+  border-color: rgba(40, 168, 121, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-ui-lightgreen);
+}
+.frame-text234 {
+  color: var(--dl-color-text-green);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text236 {
+  top: 22px;
+  left: 1362px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar24 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar19 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-row25 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border50 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border51 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall25 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name25 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text238 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text240 {
+  top: 22px;
+  left: 636px;
+  color: rgba(94, 119, 147, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text242 {
+  top: 22px;
+  left: 100px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-grade16 {
+  gap: 8px;
+  top: 20px;
+  left: 850px;
+  width: 106px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-component2614 {
+  width: 28px;
+  height: 8px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-ellipse3114 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse3210 {
+  top: 0px;
+  left: 10px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse3008 {
+  top: 0px;
+  left: 20px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-frame17 {
+  gap: 10px;
+  display: flex;
+  padding: 6px 8px;
+  align-items: flex-start;
+  border-color: rgba(40, 168, 121, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-ui-lightgreen);
+}
+.frame-text244 {
+  color: var(--dl-color-text-green);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text246 {
+  top: 22px;
+  left: 1362px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar25 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar20 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-row26 {
+  gap: 4px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border52 {
+  top: 0px;
+  left: 40px;
+  width: 1400px;
+  height: 1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-border53 {
+  top: 1.0001220703125px;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+  position: absolute;
+}
+.frame-tablecomponenticoncall26 {
+  top: 20px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-name26 {
+  gap: 4px;
+  top: 5px;
+  left: 310px;
+  width: 246px;
+  height: 47px;
+  display: flex;
+  padding: 5px 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-text248 {
+  color: var(--dl-color-default-text);
+  width: 246px;
+  height: auto;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text250 {
+  top: 22px;
+  left: 636px;
+  color: rgba(94, 119, 147, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text252 {
+  top: 22px;
+  left: 102px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-grade17 {
+  gap: 8px;
+  top: 20px;
+  left: 850px;
+  width: 106px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-component2615 {
+  width: 28px;
+  height: 8px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-ellipse3115 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse3211 {
+  top: 0px;
+  left: 10px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-ellipse3009 {
+  top: 0px;
+  left: 20px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-frame18 {
+  gap: 10px;
+  display: flex;
+  padding: 6px 8px;
+  align-items: flex-start;
+  border-color: rgba(40, 168, 121, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-ui-lightgreen);
+}
+.frame-text254 {
+  color: var(--dl-color-text-green);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text256 {
+  top: 22px;
+  left: 1362px;
+  color: var(--dl-color-default-text);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-tablecomponentavatar26 {
+  gap: 10px;
+  top: 17px;
+  left: 182px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: 9px 16px 9px 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-avatar21 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame-frame19 {
+  top: 80px;
+  left: 0px;
+  width: 1440px;
+  height: 48px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame-search {
+  top: 0px;
+  left: 0px;
+  width: 482px;
+  height: 48px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-deafult {
+  top: 14px;
+  left: 0px;
+  width: 140px;
+  height: 20px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-text258 {
+  left: 28px;
+  color: var(--dl-color-default-textsecondary);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-vector {
+  top: 2px;
+  left: 0px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.frame-filters {
+  gap: 48px;
+  top: 14px;
+  left: 687px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.frame-frame20 {
+  gap: 32px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.frame-frame21 {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+}
+.frame-text260 {
+  color: var(--dl-color-default-textsecondary);
+  height: auto;
+  opacity: 0.87;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 148.00000190734863%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-dropdown {
+  width: 18px;
+  height: 21px;
+}
+.frame-frame22 {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+}
+.frame-text262 {
+  color: var(--dl-color-default-textsecondary);
+  height: auto;
+  opacity: 0.87;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 148.00000190734863%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-dropdown1 {
+  width: 18px;
+  height: 21px;
+}
+.frame-frame23 {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+}
+.frame-text264 {
+  font-size: 14px;
+
+  font-family: SF Pro Display;
+}
+.frame-dropdown2 {
+  width: 18px;
+  height: 21px;
+}
+.frame-frame24 {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+}
+.frame-text266 {
+  color: var(--dl-color-default-textsecondary);
+  height: auto;
+  opacity: 0.87;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 148.00000190734863%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-dropdown3 {
+  width: 18px;
+  height: 21px;
+}
+.frame-frame25 {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+}
+.frame-text268 {
+  color: var(--dl-color-default-textsecondary);
+  height: auto;
+  opacity: 0.87;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 148.00000190734863%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-dropdown4 {
+  width: 18px;
+  height: 21px;
+}
+.frame-frame26 {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+}
+.frame-text270 {
+  color: var(--dl-color-default-textsecondary);
+  height: auto;
+  opacity: 0.87;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 148.00000190734863%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-dropdown5 {
+  width: 18px;
+  height: 21px;
+}
+.frame-buttonbalanceicondefault {
+  gap: 14px;
+  top: 20px;
+  left: 1132px;
+  width: 145px;
+  height: 40px;
+  display: flex;
+  padding: 12px 25px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 48px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.frame-vector1 {
+  top: 8px;
+  left: 109px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-text272 {
+  top: 10px;
+  left: 12px;
+  color: rgba(137, 156, 177, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 148.00000190734863%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text273 {
+  color: var(--dl-color-default-textheader);
+  font-weight: 400;
+}
+.frame-header {
+  top: 0px;
+  left: 240px;
+  width: 1680px;
+  height: 64px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 4px 5px 0px rgba(233, 237, 243, 1);
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.frame-avatars {
+  top: 12px;
+  left: 1497px;
+  width: 68px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-avatar22 {
+  top: 0px;
+  left: 1px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame-ellipse {
+  top: 0px;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.frame-img {
+  top: 0px;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 50px;
+}
+.frame-keyboardarrowdownblack24dp1 {
+  top: 9px;
+  left: 45px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-text275 {
+  top: 21px;
+  left: 1167px;
+  color: var(--dl-color-default-textheader);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text277 {
+  top: 21px;
+  left: 120px;
+  color: var(--dl-color-default-textheader);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 148.00000190734863%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-keyboardarrowdownblack24dp11 {
+  top: 21px;
+  left: 1433px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-vector2 {
+  top: 26px;
+  left: 1236px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-basicsearch {
+  top: 8px;
+  left: 1079px;
+  width: 32px;
+  height: 48px;
+  position: absolute;
+}
+.frame-frame27 {
+  gap: 56px;
+  top: 14px;
+  left: 296px;
+  width: 594px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.frame-frame28 {
+  width: 162px;
+  height: 34px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame-text279 {
+  color: rgba(18, 41, 69, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 148.00000190734863%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text280 {
+  color: var(--dl-color-default-text);
+}
+.frame-bar {
+  top: 28px;
+  left: 0px;
+  width: 156px;
+  height: 6px;
+  position: absolute;
+  border-radius: 12px;
+}
+.frame-bar1 {
+  top: 28px;
+  left: 0px;
+  width: 68px;
+  height: 6px;
+  position: absolute;
+  border-radius: 12px 0 0 12px;
+}
+.frame-frame29 {
+  width: 164px;
+  height: 34px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame-text282 {
+  color: rgba(18, 41, 69, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 148.00000190734863%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text283 {
+  color: var(--dl-color-default-text);
+}
+.frame-bar2 {
+  top: 28px;
+  left: 0px;
+  width: 156px;
+  height: 6px;
+  position: absolute;
+  border-radius: 12px;
+}
+.frame-bar3 {
+  top: 28px;
+  left: 0px;
+  width: 67px;
+  height: 6px;
+  position: absolute;
+  border-radius: 12px 0 0 12px;
+}
+.frame-frame30 {
+  width: 156px;
+  height: 34px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame-text285 {
+  color: rgba(18, 41, 69, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 148.00000190734863%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-text286 {
+  color: var(--dl-color-default-text);
+}
+.frame-bar4 {
+  top: 28px;
+  left: 0px;
+  width: 156px;
+  height: 6px;
+  position: absolute;
+  border-radius: 12px;
+}
+.frame-bar5 {
+  top: 28px;
+  left: 0px;
+  width: 78px;
+  height: 6px;
+  position: absolute;
+  border-radius: 12px 0 0 12px;
+}
+.frame-rectangle1656 {
+  top: 0px;
+  left: 0px;
+  width: 240px;
+  height: 2730px;
+  position: absolute;
+}
+.frame-sidebar-default {
+  top: 0px;
+  left: 0px;
+  width: 240px;
+  height: 963px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-list {
+  top: 88px;
+  left: 0px;
+  width: 240px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.frame-menuitem {
+  width: 240px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-text288 {
+  top: 15px;
+  left: 48px;
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-iconassessment24px {
+  top: 14px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-menuitem01 {
+  width: 240px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-text290 {
+  top: 15px;
+  left: 48px;
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-iconorders24px {
+  top: 14px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-menuitem02 {
+  width: 240px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-current {
+  top: 0px;
+  left: 0px;
+  width: 240px;
+  height: 52px;
+  position: absolute;
+}
+.frame-current1 {
+  top: 0px;
+  left: 0px;
+  width: 3px;
+  height: 52px;
+  position: absolute;
+}
+.frame-text292 {
+  top: 15px;
+  left: 48px;
+  color: rgba(255, 255, 255, 1);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-new {
+  top: 22px;
+  left: 220px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-iconmailoutline24px {
+  top: 14px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-menuitem03 {
+  width: 240px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-text294 {
+  top: 15px;
+  left: 48px;
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-iconcalls24px {
+  top: 14px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-menuitem04 {
+  width: 240px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-text296 {
+  top: 15px;
+  left: 48px;
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-iconpeople24px {
+  top: 14px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-menuitem05 {
+  width: 240px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-text298 {
+  top: 15px;
+  left: 48px;
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-icondocuments24px {
+  top: 14px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-menuitem06 {
+  width: 240px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-text300 {
+  top: 15px;
+  left: 48px;
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-iconworkers24px1 {
+  top: 14px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-menuitem07 {
+  width: 240px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-text302 {
+  top: 15px;
+  left: 48px;
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-iconreports24px {
+  top: 14px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-menuitem08 {
+  width: 240px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-text304 {
+  top: 15px;
+  left: 48px;
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-iconknowledgebasee24px {
+  top: 14px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-menuitem09 {
+  width: 240px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-text306 {
+  top: 15px;
+  left: 48px;
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-iconsettings24px {
+  top: 14px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-list1 {
+  top: 80px;
+  left: 0px;
+  width: 240px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.frame-menuitem10 {
+  width: 240px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-text308 {
+  top: 15px;
+  left: 48px;
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-iconcharttimelinevariant {
+  top: 14px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-menuitem11 {
+  width: 240px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-text310 {
+  top: 15px;
+  left: 48px;
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-iconorders24px1 {
+  top: 14px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-menuitem12 {
+  width: 240px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-text312 {
+  top: 15px;
+  left: 48px;
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-iconmailoutline24px1 {
+  top: 14px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-menuitem13 {
+  width: 240px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-current2 {
+  top: 0px;
+  left: 0px;
+  width: 240px;
+  height: 52px;
+  position: absolute;
+}
+.frame-current3 {
+  top: 0px;
+  left: 0px;
+  width: 3px;
+  height: 52px;
+  position: absolute;
+}
+.frame-text314 {
+  top: 15px;
+  left: 48px;
+  color: rgba(255, 255, 255, 1);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-new1 {
+  top: 22px;
+  left: 220px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.frame-iconcalls24px1 {
+  top: 14px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-menuitem14 {
+  width: 240px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-text316 {
+  top: 15px;
+  left: 48px;
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-iconpeople24px1 {
+  top: 14px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-menuitem15 {
+  width: 240px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-text318 {
+  top: 15px;
+  left: 48px;
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-icondocuments24px1 {
+  top: 14px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-menuitem16 {
+  width: 240px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-text320 {
+  top: 15px;
+  left: 48px;
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-iconpermidentityblack24dp {
+  top: 14px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-menuitem17 {
+  width: 240px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-text322 {
+  top: 15px;
+  left: 48px;
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-iconbriefcaseoutline {
+  top: 14px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-menuitem18 {
+  width: 240px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-text324 {
+  top: 15px;
+  left: 48px;
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-iconlocallibraryblack24dp {
+  top: 14px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-menuitem19 {
+  width: 240px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(9, 19, 54, 1);
+}
+.frame-text326 {
+  top: 15px;
+  left: 48px;
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-iconsettings24px1 {
+  top: 14px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-button {
+  gap: 14px;
+  top: 664px;
+  left: 20px;
+  width: 200px;
+  height: 44px;
+  display: flex;
+  padding: 12px 25px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: var(--dl-color-ui-accent);
+}
+.frame-text328 {
+  top: 12px;
+  left: 35px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 148.00000190734863%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-vector3 {
+  top: 12px;
+  left: 156px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.frame-button1 {
+  gap: 14px;
+  top: 664px;
+  left: 20px;
+  width: 200px;
+  height: 52px;
+  display: flex;
+  padding: 12px 25px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: rgba(0, 95, 248, 1);
+}
+.frame-text330 {
+  top: 13px;
+  left: 24px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 148.00000190734863%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-vector4 {
+  top: 14px;
+  left: 156px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.frame-logo {
+  top: 20px;
+  left: 12px;
+  width: 109px;
+  height: 28.000186920166016px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-union {
+  top: 0px;
+  left: 0px;
+  width: 108px;
+  height: 28px;
+  position: absolute;
+}
+.frame-buttonpaytextandicondefault {
+  gap: 14px;
+  top: 748px;
+  left: 20px;
+  width: 200px;
+  height: 52px;
+  display: flex;
+  padding: 12px 25px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: rgba(0, 95, 248, 1);
+}
+.frame-text332 {
+  top: 13px;
+  left: 65px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 148.00000190734863%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-alert24 {
+  top: 11px;
+  left: 150px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}

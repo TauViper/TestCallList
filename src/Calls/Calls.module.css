@@ -1,0 +1,346 @@
+.frameCalls {
+    top: 135px;
+    left: 0px;
+    width: 1440px;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    box-shadow: 0px 4px 5px 0px rgba(233, 237, 243, 1);
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.frameTable {
+    gap: 20px;
+    top: 24px;
+    left: 0px;
+    width: 1440px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.frameFrame1529 {
+    gap: 6px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.frameTableheader {
+    width: 1440px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+.frameText002 {
+    top: 2px;
+    left: 40px;
+    color: var(--dl-color-default-textheader);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.frameText004 {
+    top: 2px;
+    left: 93px;
+    color: var(--dl-color-default-textheader);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: right;
+    font-family: SF Pro Display;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.frameText006 {
+    top: 2px;
+    left: 636px;
+    color: var(--dl-color-default-textheader);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.frameText008 {
+    top: 2px;
+    left: 850px;
+    color: var(--dl-color-default-textheader);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.frameText010 {
+    top: 2px;
+    left: 1311px;
+    color: var(--dl-color-default-textheader);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: right;
+    font-family: SF Pro Display;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.frameText012 {
+    top: 2px;
+    left: 310px;
+    color: var(--dl-color-default-textheader);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.frameText014 {
+    top: 2px;
+    left: 182px;
+    color: var(--dl-color-default-textheader);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.frameTable1 {
+    width: 1440px;
+    height: 1868px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+}
+.frameRows {
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+}
+.frameRow {
+    gap: 4px;
+    width: 1400px;
+    height: 65px;
+    display: flex;
+    padding: 0 0 0 40px;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+.frameBorder {
+    top: 0px;
+    left: 40px;
+    width: 1400px;
+    height: 1px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+.frameBorder01 {
+    top: 1.0001220703125px;
+    left: 0px;
+    width: 1400px;
+    height: 1px;
+    position: absolute;
+}
+.frameTablecomponenticoncall {
+    top: 20px;
+    left: 40px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+}
+.frameName {
+    gap: 4px;
+    top: 5px;
+    left: 310px;
+    width: 246px;
+    height: 47px;
+    display: flex;
+    padding: 5px 0;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+}
+.frameText016 {
+    color: var(--dl-color-default-text);
+    width: 246px;
+    height: auto;
+    font-size: 15px;
+    font-style: Regular;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-weight: 400;
+    line-height: 139.9999976158142%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.frameText018 {
+    top: 22px;
+    left: 636px;
+    color: rgba(94, 119, 147, 1);
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Regular;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-weight: 400;
+    line-height: 139.9999976158142%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.frameText020 {
+    top: 22px;
+    left: 96px;
+    color: var(--dl-color-default-text);
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Regular;
+    text-align: right;
+    font-family: SF Pro Display;
+    font-weight: 400;
+    line-height: 139.9999976158142%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.frameGrade {
+    gap: 8px;
+    top: 20px;
+    left: 850px;
+    width: 106px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+}
+.frameComponent26 {
+    width: 28px;
+    height: 8px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+.frameEllipse31 {
+    top: 0px;
+    left: 0px;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+}
+.frameEllipse32 {
+    top: 0px;
+    left: 10px;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+}
+.frameEllipse30 {
+    top: 0px;
+    left: 20px;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+}
+.frameFrame01 {
+    gap: 10px;
+    display: flex;
+    padding: 6px 8px;
+    align-items: flex-start;
+    border-color: rgba(40, 168, 121, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-ui-lightgreen);
+}
+.frameText022 {
+    color: var(--dl-color-text-green);
+    height: auto;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.frameText024 {
+    top: 22px;
+    left: 1362px;
+    color: var(--dl-color-default-text);
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Regular;
+    text-align: right;
+    font-family: SF Pro Display;
+    font-weight: 400;
+    line-height: 139.9999976158142%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.frameTablecomponentavatar {
+    gap: 10px;
+    top: 17px;
+    left: 182px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    padding: 9px 16px 9px 0;
+    position: absolute;
+    align-items: flex-start;
+}
+.frameAvatar {
+    top: 0px;
+    left: 0px;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    border-radius: 20px;
+}
